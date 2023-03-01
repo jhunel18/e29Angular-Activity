@@ -1,0 +1,36 @@
+p{
+    margin:5px;
+}
+.row>div {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 50px;
+}
+table{
+    width: 50%;
+    
+}
+th{
+    font-size: 18px;
+    color:rgb(100, 100, 226);
+    text-align: right;
+}
+td.pull-right {
+    text-align: right;
+}
+table, th, td {
+    border-collapse: collapse;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+td.bg-colored {
+    border-bottom: 1px solid #ddd;
+}
+td.big-txt-colored {
+    color: #d71c3c;
+    font-size: 20px;
+    font-weight: bold;
+}

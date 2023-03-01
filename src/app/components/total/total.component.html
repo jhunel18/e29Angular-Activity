@@ -1,0 +1,38 @@
+<div>
+    <table>
+      <tr>
+        <th>Description</th>
+        <th>Quantity</th>
+        <th>Unit price</th>
+        <th>Total price</th>
+      </tr>
+      <tr *ngFor="let invoice of invoices">
+        <td  id="item" class = "bg-colored">{{invoice.description}}</td>
+        <td class = "bg-colored">{{invoice.quantity}}</td>
+        <td class = "bg-colored pull-right">P {{invoice.unitPrice}}.00</td>
+        <td class = "bg-colored pull-right">P {{invoice.totalPrice}}.00</td>
+      </tr>
+
+      <tr>
+        <td class = "" colspan="2">Notes:</td>
+        <td class = "pull-right">Subtotal</td>
+        <td class = "pull-right">{{totalPrice}}.00</td>
+      </tr>
+      <tr>
+        <td colspan="2"></td>
+        <td class = "pull-right">Adjustments</td>
+        <td class ="pull-right">-1000.00</td>
+      </tr>
+      <tr>
+        <td class = "" colspan="3"></td>
+        <td class = "big-txt-colored pull-right">165000.00</td>
+      </tr>
+     
+    </table>
+
+    <table>
+        
+    </table>
+</div>
+
+
